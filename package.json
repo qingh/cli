@@ -15,21 +15,19 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^5.1.0",
-    "core-js": "^3.6.5",
     "download-git-repo": "^3.0.2",
     "execa": "^4.0.3",
     "inquirer": "^7.3.2",
-    "ora": "^4.0.4",
-    "uuid": "^8.2.0"
+    "ora": "^4.0.4"
   },
   "author": "qingh",
   "license": "MIT",
-  "homepage": "https://github.com/qingh/upload#readme",
+  "homepage": "https://github.com/qingh/cli#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qingh/upload.git"
+    "url": "git+https://github.com/qingh/cli.git"
   },
   "bugs": {
-    "url": "https://github.com/qingh/upload/issues"
+    "url": "https://github.com/qingh/cli/issues"
   }
 }

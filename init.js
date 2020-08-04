@@ -7,7 +7,6 @@ const { execSync } = require('child_process');
 const download = require('download-git-repo');
 
 let branch = '';
-// program.option('-a,--aa', 'a123');
 program.version(require('./package').version, '-v,--version').usage('<command> [options]');
 program
   .command('react <projectName>')
@@ -20,14 +19,14 @@ program
   .command('vue2.0 <projectName>')
   .description('create a vue2.0 project')
   .action((name, cmd) => {
-    branch = '#mvvm';
+    branch = '#vue2.0';
     mkdir(name);
   });
 program
   .command('vue3.0 <projectName>')
   .description('create a vue3.0 project')
   .action((name, cmd) => {
-    branch = '#resume';
+    branch = '#vue3.0';
     mkdir(name);
   });
 program.parse(process.argv);
